@@ -83,7 +83,7 @@ class RollingSwitch extends StatefulWidget {
     this.animationDuration = const Duration(milliseconds: 400),
     this.onTap,
     this.controller,
-  })  : assert(height >= 50.0 && innerSize >= 40.0),
+  })  : assert(height >= 40.0 && innerSize >= 40.0),
         rollingInfoLeft = rollingInfoLeft,
         rollingInfoRight = rollingInfoRight,
         super(key: key);

@@ -1,3 +1,7 @@
+## [0.0.4] - Fix an aberration
+
+* Fix the limit of the height on `RollingWidget.widget()` (lowered to 40).
+
 ## [0.0.3] - Controller Create
 
 * Create a custom controller
